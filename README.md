@@ -1,6 +1,6 @@
 # Tinder Auto-Liker
 
-![Project Image]([https://drive.google.com/file/d/1Oo1cuEH5MxcIuco1JHBw_ahCi14FK1tl/view?usp=sharing](https://drive.google.com/file/d/1raoHtx31SDgl1hLSzcFEYYirTgjqI9Om/view?usp=sharing))
+![Project Image](https://drive.google.com/drive/u/0/folders/1n_BszXdTsffqv6glGJpqw7c3IexWZ15A)
 
 ## Overview
 
