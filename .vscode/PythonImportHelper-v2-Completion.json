@@ -1,0 +1,759 @@
+[
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "os,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.",
+        "description": "os.",
+        "detail": "os.",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "importPath": "elftools",
+        "description": "elftools",
+        "isExtraImport": true,
+        "detail": "elftools",
+        "documentation": {}
+    },
+    {
+        "label": "ELFError",
+        "importPath": "elftools.common.exceptions",
+        "description": "elftools.common.exceptions",
+        "isExtraImport": true,
+        "detail": "elftools.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "bytes2str",
+        "importPath": "elftools.common.utils",
+        "description": "elftools.common.utils",
+        "isExtraImport": true,
+        "detail": "elftools.common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "iterbytes",
+        "importPath": "elftools.common.utils",
+        "description": "elftools.common.utils",
+        "isExtraImport": true,
+        "detail": "elftools.common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ELFFile",
+        "importPath": "elftools.elf.elffile",
+        "description": "elftools.elf.elffile",
+        "isExtraImport": true,
+        "detail": "elftools.elf.elffile",
+        "documentation": {}
+    },
+    {
+        "label": "DynamicSection",
+        "importPath": "elftools.elf.dynamic",
+        "description": "elftools.elf.dynamic",
+        "isExtraImport": true,
+        "detail": "elftools.elf.dynamic",
+        "documentation": {}
+    },
+    {
+        "label": "DynamicSegment",
+        "importPath": "elftools.elf.dynamic",
+        "description": "elftools.elf.dynamic",
+        "isExtraImport": true,
+        "detail": "elftools.elf.dynamic",
+        "documentation": {}
+    },
+    {
+        "label": "ENUM_D_TAG",
+        "importPath": "elftools.elf.enums",
+        "description": "elftools.elf.enums",
+        "isExtraImport": true,
+        "detail": "elftools.elf.enums",
+        "documentation": {}
+    },
+    {
+        "label": "InterpSegment",
+        "importPath": "elftools.elf.segments",
+        "description": "elftools.elf.segments",
+        "isExtraImport": true,
+        "detail": "elftools.elf.segments",
+        "documentation": {}
+    },
+    {
+        "label": "NoteSection",
+        "importPath": "elftools.elf.sections",
+        "description": "elftools.elf.sections",
+        "isExtraImport": true,
+        "detail": "elftools.elf.sections",
+        "documentation": {}
+    },
+    {
+        "label": "SymbolTableSection",
+        "importPath": "elftools.elf.sections",
+        "description": "elftools.elf.sections",
+        "isExtraImport": true,
+        "detail": "elftools.elf.sections",
+        "documentation": {}
+    },
+    {
+        "label": "SymbolTableIndexSection",
+        "importPath": "elftools.elf.sections",
+        "description": "elftools.elf.sections",
+        "isExtraImport": true,
+        "detail": "elftools.elf.sections",
+        "documentation": {}
+    },
+    {
+        "label": "GNUVerSymSection",
+        "importPath": "elftools.elf.gnuversions",
+        "description": "elftools.elf.gnuversions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.gnuversions",
+        "documentation": {}
+    },
+    {
+        "label": "GNUVerDefSection",
+        "importPath": "elftools.elf.gnuversions",
+        "description": "elftools.elf.gnuversions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.gnuversions",
+        "documentation": {}
+    },
+    {
+        "label": "GNUVerNeedSection",
+        "importPath": "elftools.elf.gnuversions",
+        "description": "elftools.elf.gnuversions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.gnuversions",
+        "documentation": {}
+    },
+    {
+        "label": "RelocationSection",
+        "importPath": "elftools.elf.relocation",
+        "description": "elftools.elf.relocation",
+        "isExtraImport": true,
+        "detail": "elftools.elf.relocation",
+        "documentation": {}
+    },
+    {
+        "label": "describe_ei_class",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_ei_data",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_ei_version",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_ei_osabi",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_e_type",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_e_machine",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_e_version_numeric",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_p_type",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_p_flags",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_rh_flags",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_sh_type",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_sh_flags",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_symbol_type",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_symbol_bind",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_symbol_visibility",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_symbol_shndx",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_reloc_type",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_dyn_tag",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_dt_flags",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_dt_flags_1",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_ver_flags",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_note",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_attr_tag_arm",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_attr_tag_riscv",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_symbol_other",
+        "importPath": "elftools.elf.descriptions",
+        "description": "elftools.elf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.elf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "E_FLAGS",
+        "importPath": "elftools.elf.constants",
+        "description": "elftools.elf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.elf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "E_FLAGS_MASKS",
+        "importPath": "elftools.elf.constants",
+        "description": "elftools.elf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.elf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "SH_FLAGS",
+        "importPath": "elftools.elf.constants",
+        "description": "elftools.elf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.elf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "SHN_INDICES",
+        "importPath": "elftools.elf.constants",
+        "description": "elftools.elf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.elf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "DWARFInfo",
+        "importPath": "elftools.dwarf.dwarfinfo",
+        "description": "elftools.dwarf.dwarfinfo",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.dwarfinfo",
+        "documentation": {}
+    },
+    {
+        "label": "describe_reg_name",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_attr_value",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "set_global_machine_arch",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_CFI_instructions",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_CFI_register_rule",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_CFI_CFA_rule",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "describe_DWARF_expr",
+        "importPath": "elftools.dwarf.descriptions",
+        "description": "elftools.dwarf.descriptions",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.descriptions",
+        "documentation": {}
+    },
+    {
+        "label": "DW_LNS_copy",
+        "importPath": "elftools.dwarf.constants",
+        "description": "elftools.dwarf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "DW_LNS_set_file",
+        "importPath": "elftools.dwarf.constants",
+        "description": "elftools.dwarf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "DW_LNE_define_file",
+        "importPath": "elftools.dwarf.constants",
+        "description": "elftools.dwarf.constants",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.constants",
+        "documentation": {}
+    },
+    {
+        "label": "LocationParser",
+        "importPath": "elftools.dwarf.locationlists",
+        "description": "elftools.dwarf.locationlists",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.locationlists",
+        "documentation": {}
+    },
+    {
+        "label": "LocationEntry",
+        "importPath": "elftools.dwarf.locationlists",
+        "description": "elftools.dwarf.locationlists",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.locationlists",
+        "documentation": {}
+    },
+    {
+        "label": "LocationViewPair",
+        "importPath": "elftools.dwarf.locationlists",
+        "description": "elftools.dwarf.locationlists",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.locationlists",
+        "documentation": {}
+    },
+    {
+        "label": "BaseAddressEntry",
+        "importPath": "elftools.dwarf.locationlists",
+        "description": "elftools.dwarf.locationlists",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.locationlists",
+        "documentation": {}
+    },
+    {
+        "label": "LocationListsPair",
+        "importPath": "elftools.dwarf.locationlists",
+        "description": "elftools.dwarf.locationlists",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.locationlists",
+        "documentation": {}
+    },
+    {
+        "label": "RangeEntry",
+        "importPath": "elftools.dwarf.ranges",
+        "description": "elftools.dwarf.ranges",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.ranges",
+        "documentation": {}
+    },
+    {
+        "label": "BaseAddressEntry",
+        "importPath": "elftools.dwarf.ranges",
+        "description": "elftools.dwarf.ranges",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.ranges",
+        "documentation": {}
+    },
+    {
+        "label": "RangeListsPair",
+        "importPath": "elftools.dwarf.ranges",
+        "description": "elftools.dwarf.ranges",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.ranges",
+        "documentation": {}
+    },
+    {
+        "label": "CIE",
+        "importPath": "elftools.dwarf.callframe",
+        "description": "elftools.dwarf.callframe",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.callframe",
+        "documentation": {}
+    },
+    {
+        "label": "FDE",
+        "importPath": "elftools.dwarf.callframe",
+        "description": "elftools.dwarf.callframe",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.callframe",
+        "documentation": {}
+    },
+    {
+        "label": "ZERO",
+        "importPath": "elftools.dwarf.callframe",
+        "description": "elftools.dwarf.callframe",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.callframe",
+        "documentation": {}
+    },
+    {
+        "label": "CorruptEHABIEntry",
+        "importPath": "elftools.ehabi.ehabiinfo",
+        "description": "elftools.ehabi.ehabiinfo",
+        "isExtraImport": true,
+        "detail": "elftools.ehabi.ehabiinfo",
+        "documentation": {}
+    },
+    {
+        "label": "CannotUnwindEHABIEntry",
+        "importPath": "elftools.ehabi.ehabiinfo",
+        "description": "elftools.ehabi.ehabiinfo",
+        "isExtraImport": true,
+        "detail": "elftools.ehabi.ehabiinfo",
+        "documentation": {}
+    },
+    {
+        "label": "GenericEHABIEntry",
+        "importPath": "elftools.ehabi.ehabiinfo",
+        "description": "elftools.ehabi.ehabiinfo",
+        "isExtraImport": true,
+        "detail": "elftools.ehabi.ehabiinfo",
+        "documentation": {}
+    },
+    {
+        "label": "ENUM_DW_UT",
+        "importPath": "elftools.dwarf.enums",
+        "description": "elftools.dwarf.enums",
+        "isExtraImport": true,
+        "detail": "elftools.dwarf.enums",
+        "documentation": {}
+    },
+    {
+        "label": "uiautomator2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uiautomator2",
+        "description": "uiautomator2",
+        "detail": "uiautomator2",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "ReadElf",
+        "kind": 6,
+        "importPath": "env.bin.readelf",
+        "description": "env.bin.readelf",
+        "peekOfCode": "class ReadElf(object):\n    \"\"\" display_* methods are used to emit output into the output stream\n    \"\"\"\n    def __init__(self, file, output):\n        \"\"\" file:\n                stream object with the ELF file to read\n            output:\n                output stream to write to\n        \"\"\"\n        self.elffile = ELFFile(file)",
+        "detail": "env.bin.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "env.bin.readelf",
+        "description": "env.bin.readelf",
+        "peekOfCode": "def main(stream=None):\n    # parse the command-line arguments and invoke ReadElf\n    argparser = argparse.ArgumentParser(\n            usage='usage: %(prog)s [options] <elf-file>',\n            description=SCRIPT_DESCRIPTION,\n            add_help=False, # -h is a real option of readelf\n            prog='readelf.py')\n    argparser.add_argument('file',\n            nargs='?', default=None,\n            help='ELF file to parse')",
+        "detail": "env.bin.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "profile_main",
+        "kind": 2,
+        "importPath": "env.bin.readelf",
+        "description": "env.bin.readelf",
+        "peekOfCode": "def profile_main():\n    # Run 'main' redirecting its output to readelfout.txt\n    # Saves profiling information in readelf.profile\n    PROFFILE = 'readelf.profile'\n    import cProfile\n    cProfile.run('main(open(\"readelfout.txt\", \"w\"))', PROFFILE)\n    # Dig in some profiling stats\n    import pstats\n    p = pstats.Stats(PROFFILE)\n    p.sort_stats('cumulative').print_stats(25)",
+        "detail": "env.bin.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "_CONTROL_CHAR_RE",
+        "kind": 5,
+        "importPath": "env.bin.readelf",
+        "description": "env.bin.readelf",
+        "peekOfCode": "_CONTROL_CHAR_RE = re.compile(r'[\\x01-\\x1f]')\ndef _format_symbol_name(s):\n    return _CONTROL_CHAR_RE.sub(lambda match: '^' + chr(0x40 + ord(match[0])), s)\nclass ReadElf(object):\n    \"\"\" display_* methods are used to emit output into the output stream\n    \"\"\"\n    def __init__(self, file, output):\n        \"\"\" file:\n                stream object with the ELF file to read\n            output:",
+        "detail": "env.bin.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "SCRIPT_DESCRIPTION",
+        "kind": 5,
+        "importPath": "env.bin.readelf",
+        "description": "env.bin.readelf",
+        "peekOfCode": "SCRIPT_DESCRIPTION = 'Display information about the contents of ELF format files'\nVERSION_STRING = '%%(prog)s: based on pyelftools %s' % __version__\ndef main(stream=None):\n    # parse the command-line arguments and invoke ReadElf\n    argparser = argparse.ArgumentParser(\n            usage='usage: %(prog)s [options] <elf-file>',\n            description=SCRIPT_DESCRIPTION,\n            add_help=False, # -h is a real option of readelf\n            prog='readelf.py')\n    argparser.add_argument('file',",
+        "detail": "env.bin.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "VERSION_STRING",
+        "kind": 5,
+        "importPath": "env.bin.readelf",
+        "description": "env.bin.readelf",
+        "peekOfCode": "VERSION_STRING = '%%(prog)s: based on pyelftools %s' % __version__\ndef main(stream=None):\n    # parse the command-line arguments and invoke ReadElf\n    argparser = argparse.ArgumentParser(\n            usage='usage: %(prog)s [options] <elf-file>',\n            description=SCRIPT_DESCRIPTION,\n            add_help=False, # -h is a real option of readelf\n            prog='readelf.py')\n    argparser.add_argument('file',\n            nargs='?', default=None,",
+        "detail": "env.bin.readelf",
+        "documentation": {}
+    },
+    {
+        "label": "random_delay",
+        "kind": 2,
+        "importPath": "tinder_automation",
+        "description": "tinder_automation",
+        "peekOfCode": "def random_delay(min_delay=2, max_delay=5):\n    delay = random.uniform(min_delay, max_delay)\n    time.sleep(delay)\n# Function to swipe right (like)\ndef swipe_right():\n    os.system(\"adb shell input swipe 800 1000 100 1000\")\n    random_delay()\n# Function to swipe left (unlike)\ndef swipe_left():\n    os.system(\"adb shell input swipe 100 1000 800 1000\")",
+        "detail": "tinder_automation",
+        "documentation": {}
+    },
+    {
+        "label": "swipe_right",
+        "kind": 2,
+        "importPath": "tinder_automation",
+        "description": "tinder_automation",
+        "peekOfCode": "def swipe_right():\n    os.system(\"adb shell input swipe 800 1000 100 1000\")\n    random_delay()\n# Function to swipe left (unlike)\ndef swipe_left():\n    os.system(\"adb shell input swipe 100 1000 800 1000\")\n    random_delay()\n# Function to simulate human-like swiping behavior\ndef automate_tinder_swipes(n):\n    for _ in range(n):",
+        "detail": "tinder_automation",
+        "documentation": {}
+    },
+    {
+        "label": "swipe_left",
+        "kind": 2,
+        "importPath": "tinder_automation",
+        "description": "tinder_automation",
+        "peekOfCode": "def swipe_left():\n    os.system(\"adb shell input swipe 100 1000 800 1000\")\n    random_delay()\n# Function to simulate human-like swiping behavior\ndef automate_tinder_swipes(n):\n    for _ in range(n):\n        action = random.choice([swipe_right, swipe_left, lambda: time.sleep(random.uniform(2, 5))])\n        action()\n        # Randomly take breaks\n        if random.random() < 0.1:  # 10% chance to take a break",
+        "detail": "tinder_automation",
+        "documentation": {}
+    },
+    {
+        "label": "automate_tinder_swipes",
+        "kind": 2,
+        "importPath": "tinder_automation",
+        "description": "tinder_automation",
+        "peekOfCode": "def automate_tinder_swipes(n):\n    for _ in range(n):\n        action = random.choice([swipe_right, swipe_left, lambda: time.sleep(random.uniform(2, 5))])\n        action()\n        # Randomly take breaks\n        if random.random() < 0.1:  # 10% chance to take a break\n            print(\"Taking a short break...\")\n            time.sleep(random.randint(10, 20))  # Break for 10-20 seconds\n# Automate Tinder swipes (e.g., swipe 20 times)\nautomate_tinder_swipes(20)",
+        "detail": "tinder_automation",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "tinder_automation",
+        "description": "tinder_automation",
+        "peekOfCode": "device = u2.connect()\n# Launch Tinder (make sure Tinder is installed)\ndevice.app_start(\"com.tinder\")\n# Wait for the app to load\ntime.sleep(10)\n# Function to simulate a random delay\ndef random_delay(min_delay=2, max_delay=5):\n    delay = random.uniform(min_delay, max_delay)\n    time.sleep(delay)\n# Function to swipe right (like)",
+        "detail": "tinder_automation",
+        "documentation": {}
+    }
+]
