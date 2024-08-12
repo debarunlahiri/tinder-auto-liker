@@ -1,11 +1,16 @@
 # Tinder Auto-Liker
 
-![Youtube](https://youtu.be/D_SF1inYhFc)
+# Tinder Auto-Liker
 
+![Project Image](https://drive.google.com/uc?id=1raoHtx31SDgl1hLSzcFEYYirTgjqI9Om)
 
 ## Overview
 
 Tinder Auto-Liker is a Python-based automation tool designed to interact with the Tinder mobile app on Android devices. This script automates the process of swiping right (liking) or swiping left (disliking) profiles on Tinder, helping you save time and effort.
+
+[![Watch the Demo on YouTube](https://img.youtube.com/vi/D_SF1inYhFc/0.jpg)](https://youtu.be/D_SF1inYhFc)
+*Click the image above to watch the demo on YouTube*
+
 
 ### **Key Features**
 - **Automated Swiping:** Automatically swipe right or left on profiles.
