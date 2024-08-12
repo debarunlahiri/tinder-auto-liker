@@ -1,6 +1,6 @@
 # Tinder Auto-Liker
 
-![Youtube]([https://drive.google.com/uc?id=1raoHtx31SDgl1hLSzcFEYYirTgjqI9Om](https://youtu.be/D_SF1inYhFc))
+![Youtube](https://youtu.be/D_SF1inYhFc)
 
 
 ## Overview
