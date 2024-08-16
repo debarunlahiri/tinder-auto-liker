@@ -658,6 +658,23 @@
         "documentation": {}
     },
     {
+        "label": "psycopg2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psycopg2",
+        "description": "psycopg2",
+        "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "ReadElf",
         "kind": 6,
         "importPath": "env.bin.readelf",
@@ -712,47 +729,29 @@
         "documentation": {}
     },
     {
-        "label": "random_delay",
+        "label": "connect_db",
         "kind": 2,
         "importPath": "tinder_automation",
         "description": "tinder_automation",
-        "peekOfCode": "def random_delay(min_delay=2, max_delay=5):\n    delay = random.uniform(min_delay, max_delay)\n    time.sleep(delay)\n# Function to swipe right (like)\ndef swipe_right():\n    os.system(\"adb shell input swipe 800 1000 100 1000\")\n    random_delay()\n# Function to swipe left (unlike)\ndef swipe_left():\n    os.system(\"adb shell input swipe 100 1000 800 1000\")",
+        "peekOfCode": "def connect_db():\n    conn = psycopg2.connect(\n        dbname=\"your_dbname\",\n        user=\"your_user\",\n        password=\"your_password\",\n        host=\"your_host\",\n        port=\"your_port\"\n    )\n    print(\"Connected to the database successfully.\")\n    return conn",
         "detail": "tinder_automation",
         "documentation": {}
     },
     {
-        "label": "swipe_right",
+        "label": "log_action",
         "kind": 2,
         "importPath": "tinder_automation",
         "description": "tinder_automation",
-        "peekOfCode": "def swipe_right():\n    os.system(\"adb shell input swipe 800 1000 100 1000\")\n    random_delay()\n# Function to swipe left (unlike)\ndef swipe_left():\n    os.system(\"adb shell input swipe 100 1000 800 1000\")\n    random_delay()\n# Function to simulate human-like swiping behavior\ndef automate_tinder_swipes(n):\n    for _ in range(n):",
+        "peekOfCode": "def log_action(conn, action):\n    cur = conn.cursor()\n    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\n    cur.execute(\n        \"INSERT INTO tinder_logs (action, timestamp) VALUES (%s, %s)\",\n        (action, timestamp)\n    )\n    conn.commit()\n    cur.close()\n    print(f\"Logged action: {action} at {timestamp}\")",
         "detail": "tinder_automation",
         "documentation": {}
     },
     {
-        "label": "swipe_left",
+        "label": "run_tinder_automation",
         "kind": 2,
         "importPath": "tinder_automation",
         "description": "tinder_automation",
-        "peekOfCode": "def swipe_left():\n    os.system(\"adb shell input swipe 100 1000 800 1000\")\n    random_delay()\n# Function to simulate human-like swiping behavior\ndef automate_tinder_swipes(n):\n    for _ in range(n):\n        action = random.choice([swipe_right, swipe_left, lambda: time.sleep(random.uniform(2, 5))])\n        action()\n        # Randomly take breaks\n        if random.random() < 0.1:  # 10% chance to take a break",
-        "detail": "tinder_automation",
-        "documentation": {}
-    },
-    {
-        "label": "automate_tinder_swipes",
-        "kind": 2,
-        "importPath": "tinder_automation",
-        "description": "tinder_automation",
-        "peekOfCode": "def automate_tinder_swipes(n):\n    for _ in range(n):\n        action = random.choice([swipe_right, swipe_left, lambda: time.sleep(random.uniform(2, 5))])\n        action()\n        # Randomly take breaks\n        if random.random() < 0.1:  # 10% chance to take a break\n            print(\"Taking a short break...\")\n            time.sleep(random.randint(10, 20))  # Break for 10-20 seconds\n# Automate Tinder swipes (e.g., swipe 20 times)\nautomate_tinder_swipes(20)",
-        "detail": "tinder_automation",
-        "documentation": {}
-    },
-    {
-        "label": "device",
-        "kind": 5,
-        "importPath": "tinder_automation",
-        "description": "tinder_automation",
-        "peekOfCode": "device = u2.connect()\n# Launch Tinder (make sure Tinder is installed)\ndevice.app_start(\"com.tinder\")\n# Wait for the app to load\ntime.sleep(10)\n# Function to simulate a random delay\ndef random_delay(min_delay=2, max_delay=5):\n    delay = random.uniform(min_delay, max_delay)\n    time.sleep(delay)\n# Function to swipe right (like)",
+        "peekOfCode": "def run_tinder_automation(conn):\n    device = u2.connect()\n    device.app_start(\"com.tinder\")\n    time.sleep(10)\n    def random_delay(min_delay=2, max_delay=5):\n        delay = random.uniform(min_delay, max_delay)\n        print(f\"Waiting for {delay:.2f} seconds...\")\n        time.sleep(delay)\n    def swipe_right():\n        os.system(\"adb shell input swipe 800 1000 100 1000\")",
         "detail": "tinder_automation",
         "documentation": {}
     }
