@@ -733,7 +733,7 @@
         "kind": 2,
         "importPath": "tinder_automation",
         "description": "tinder_automation",
-        "peekOfCode": "def connect_db():\n    conn = psycopg2.connect(\n        dbname=\"your_dbname\",\n        user=\"your_user\",\n        password=\"your_password\",\n        host=\"your_host\",\n        port=\"your_port\"\n    )\n    print(\"Connected to the database successfully.\")\n    return conn",
+        "peekOfCode": "def connect_db():\n    conn = psycopg2.connect(\n        dbname=\"postgres\",\n        user=\"debarunlahiri\",\n        password=\"password\",\n        host=\"localhost\",\n        port=\"5432\"\n    )\n    print(\"Connected to the database successfully.\")\n    return conn",
         "detail": "tinder_automation",
         "documentation": {}
     },

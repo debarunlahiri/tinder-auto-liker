@@ -8,11 +8,11 @@ from datetime import datetime
 # Function to connect to PostgreSQL
 def connect_db():
     conn = psycopg2.connect(
-        dbname="your_dbname",
-        user="your_user",
-        password="your_password",
-        host="your_host",
-        port="your_port"
+        dbname="postgres",
+        user="debarunlahiri",
+        password="password",
+        host="localhost",
+        port="5432"
     )
     print("Connected to the database successfully.")
     return conn
